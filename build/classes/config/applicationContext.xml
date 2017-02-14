@@ -18,7 +18,7 @@
     http://www.springframework.org/schema/util  
     http://www.springframework.org/schema/util/spring-util.xsd">
 
-	<!-- 创建数据源 -->
+	<!-- 创建数据源_测试git -->
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"> 
               <property name="driverClassName"><value>com.mysql.jdbc.Driver</value></property> 
               <property name="url"><value>jdbc:mysql://localhost:3306/java_1009</value></property> 
